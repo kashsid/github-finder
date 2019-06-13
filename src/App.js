@@ -1,13 +1,15 @@
-import React from "react";
-
+import React, { Component} from "react";
+import Navbar from './components/layout/Navbar'
 import "./App.css";
 
-function App() {
+class App extends Component {
+render(){
+
   return (
     <div className="App">
-     <h1>Hello from Hooks</h1>
+     <Navbar title='Github Finder'/>
     </div>
   );
 }
-
+}
 export default App;
