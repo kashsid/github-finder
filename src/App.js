@@ -7,7 +7,7 @@ render(){
 
   return (
     <div className="App">
-     <Navbar title='Github Finder'/>
+     <Navbar/>
     </div>
   );
 }
