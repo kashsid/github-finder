@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-export class Search extends Component {
+class Search extends Component {
   state = {
     text: ""
   };
@@ -16,7 +16,7 @@ export class Search extends Component {
   render() {
     return (
       <div>
-        <form onSubmit={this.handleSubmit} className="form" />
+        <form onSubmit={this.handleSubmit} className="form" >
         <input
           type="text"
           name="text"
@@ -26,9 +26,10 @@ export class Search extends Component {
         />
         <input
           type="submit"
-          value="Search"
+          value="search"
           className="btn btn-dark btn-block"
         />
+        </form>
       </div>
     );
   }
